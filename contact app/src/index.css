@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 1rem;
+    background-color: rgb(237, 237, 237);
+}
+
+.App {
+    padding: 2rem;
+}
+
