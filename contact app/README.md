@@ -1,8 +1,69 @@
-# React + Vite
+## Telefon Numarası Filtreleyici Uygulama
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu uygulama, kullanıcıların telefon numaralarını ekledikleri kişilerle ilişkilendirerek, belirli bir kişinin adı veya numarasıyla telefon numaralarını filtrelemelerine olanak tanır.
 
-Currently, two official plugins are available:
+## Screenshots
+![Phone book app](./screenshots/phone_app.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Kullanım
+
+1. **Kişi Ekleme**
+
+    Kişi eklemek için, uygulamayı çalıştırın ve  istenen kişinin adını ve telefon numarasını girin. Daha sonra "Add Phone" tuşuna tıklayın.
+
+2. **Kişi Filtreleme**
+
+    Filtreleme işlemi için, uygulamayı çalıştırın ve "Kişi Ara" seçeneğini seçin. Daha sonra, aramak istediğiniz kişinin adını veya numarasını girin. Uygulama, eşleşen kişilerin adını ve numarasını listeleyecektir.
+
+## Kurulum
+
+1. Projenin kopyasını almak için bu depoyu klonlayın:
+
+    ```
+    git clone https://github.com/hasan-ylmz/basic_contact_app.git
+    ```
+
+2. Proje dizinine gidin:
+
+    ```
+    cd contact app
+    ```
+
+3. Gerekli dosyaları yükleyin:
+    
+    ```
+    npm  install 
+    ```
+
+    
+3. Uygulamayı çalıştırın:
+    
+    ```
+    npm  run dev
+    ```
+
+
+## Katkıda Bulunma
+
+1. Bu depoyu kendi GitHub hesabınıza fork edin.
+2. Yeni özellikler eklemek veya hata düzeltmeleri yapmak için yeni bir dal oluşturun:
+
+    ```
+    git checkout -b yeni-ozellik
+    ```
+
+3. Yaptığınız değişiklikleri doğrulayın:
+
+    ```
+    git commit -am 'Yeni özellik: <açıklama>'
+    ```
+
+4. Değişikliklerinizi fork ettiğiniz depoya gönderin:
+
+    ```
+    git push origin yeni-ozellik
+    ```
+
+5. Bir Birleştirme İsteği (Pull Request) oluşturun.
+
