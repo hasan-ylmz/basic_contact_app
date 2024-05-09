@@ -1,69 +1,65 @@
-## Telefon Numarası Filtreleyici Uygulama
+## Phone Number Filter Application
 
-Bu uygulama, kullanıcıların telefon numaralarını ekledikleri kişilerle ilişkilendirerek, belirli bir kişinin adı veya numarasıyla telefon numaralarını filtrelemelerine olanak tanır.
+This application allows users to associate phone numbers with contacts and filter phone numbers by a specific person's name or number.
 
 ## Screenshots
 ![Phone book app](/contact%20app/screenshots/phone_app.gif)
 
 
-## Kullanım
+## Usage
 
-1. **Kişi Ekleme**
+1. **Adding a Contact**
 
-    Kişi eklemek için, uygulamayı çalıştırın ve  istenen kişinin adını ve telefon numarasını girin. Daha sonra "Add Phone" tuşuna tıklayın.
+    To add a contact, run the application and enter the name and phone number of the desired person. Then, click the "Add Phone" button.
 
-2. **Kişi Filtreleme**
+2. **Filtering Contacts**
+    You can filter by typing the keyword into the input above.
 
-    Filtreleme işlemi için, uygulamayı çalıştırın ve "Kişi Ara" seçeneğini seçin. Daha sonra, aramak istediğiniz kişinin adını veya numarasını girin. Uygulama, eşleşen kişilerin adını ve numarasını listeleyecektir.
+## Installation
 
-## Kurulum
-
-1. Projenin kopyasını almak için bu depoyu klonlayın:
+1. Clone this repository to get a copy of the project:
 
     ```
     git clone https://github.com/hasan-ylmz/basic_contact_app.git
     ```
 
-2. Proje dizinine gidin:
+2. Navigate to the project directory:
 
     ```
     cd contact app
     ```
 
-3. Gerekli dosyaları yükleyin:
-    
+3. Install necessary dependencies:
+
     ```
     npm  install 
     ```
 
-    
-3. Uygulamayı çalıştırın:
-    
+4. Run the application:
+
     ```
     npm  run dev
-    ```
+    ``
 
 
-## Katkıda Bulunma
+## Contribution
 
-1. Bu depoyu kendi GitHub hesabınıza fork edin.
-2. Yeni özellikler eklemek veya hata düzeltmeleri yapmak için yeni bir dal oluşturun:
-
-    ```
-    git checkout -b yeni-ozellik
-    ```
-
-3. Yaptığınız değişiklikleri doğrulayın:
+1. Fork this repository to your GitHub account.
+2. Create a new branch for adding new features or fixing bugs:
 
     ```
-    git commit -am 'Yeni özellik: <açıklama>'
+    git checkout -b new-feature
     ```
 
-4. Değişikliklerinizi fork ettiğiniz depoya gönderin:
+3. Commit your changes:
 
     ```
-    git push origin yeni-ozellik
+    git commit -am 'New feature: <description>'
     ```
 
-5. Bir Birleştirme İsteği (Pull Request) oluşturun.
+4. Push your changes to the forked repository:
+
+    ```
+    git push origin new-feature
+    ```
 
