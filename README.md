@@ -3,7 +3,7 @@
 Bu uygulama, kullanıcıların telefon numaralarını ekledikleri kişilerle ilişkilendirerek, belirli bir kişinin adı veya numarasıyla telefon numaralarını filtrelemelerine olanak tanır.
 
 ## Screenshots
-![Phone book app](./screenshots/phone_app.gif)
+![Phone book app](/contact%20app/screenshots/phone_app.gif)
 
 
 ## Kullanım
